@@ -35,17 +35,20 @@ I have hands-on experience building applications from scratch using **Next.js, R
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Material UI](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=mui&logoColor=white)
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
 ![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
 **Frontend Skills:**
 
-`Next.js` `React.js` `Redux` `JavaScript` `HTML5` `CSS3`  
-`Tailwind CSS` `Material UI` `Three.js` `GSAP` `Responsive UI` `PWA`
+`Next.js` `React.js` `Redux` `Redux Toolkit` `JavaScript` `TypeScript`  
+`HTML5` `CSS3` `Tailwind CSS` `Material UI` `Three.js` `GSAP`  
+`Framer Motion` `Responsive Design` `PWA`
 
 ---
 
@@ -62,7 +65,8 @@ I have hands-on experience building applications from scratch using **Next.js, R
 **Backend Skills:**
 
 `Node.js` `Express.js` `REST APIs` `WebSockets` `Socket.IO`  
-`JWT Authentication` `Redis` `BullMQ` `API Design` `Role-Based Access Control`
+`JWT Authentication` `NextAuth` `Redis` `BullMQ` `API Design`  
+`Role-Based Access Control` `Nodemailer`
 
 ---
 
@@ -73,7 +77,8 @@ I have hands-on experience building applications from scratch using **Next.js, R
 
 **Database Skills:**
 
-`MongoDB` `PostgreSQL` `Database Design` `Aggregation` `Query Optimization`
+`MongoDB` `PostgreSQL` `Mongoose` `Database Design`  
+`Aggregation` `Query Optimization`
 
 ---
 
@@ -105,54 +110,69 @@ I have hands-on experience building applications from scratch using **Next.js, R
 
 **Tools:**
 
-`Git` `GitHub` `Postman` `Zod` `VS Code` `npm` `GitHub Actions`
+`Git` `GitHub` `Postman` `Zod` `VS Code` `npm` `ESLint` `Prettier`
 
 ---
 
-# 💼 What I Build
+# 💼 Featured Projects
 
-I enjoy developing complete products rather than working on only a single layer of an application.
+## 🛒 CelebCart — Full-Stack Grocery Platform
 
-### 🔹 Full-Stack Applications
+🔗 **Live Demo:** https://celebcart.vercel.app/
 
-Building modern applications using:
+A full-stack grocery platform featuring synchronized, role-based interfaces for **Customers, Admins, and Delivery Partners**.
 
-**Next.js → React → Node.js → REST APIs → Database → Redis → Docker → AWS → CI/CD**
+### ✨ Key Features
 
-### 🔹 Real-Time Applications
+- 🏪 **Triple-Portal Ecosystem** — Separate interfaces for Customers, Admins, and Delivery Partners
+- 📍 **Real-Time Location Tracking** — Live bike movement tracking using Leaflet.js and Socket.IO
+- 💬 **Real-Time Chat** — Instant bidirectional communication between customers and delivery partners
+- 💳 **Secure Payments** — Integrated Stripe API for secure transactions
+- 🔐 **OTP Verification** — Nodemailer SMTP-based delivery verification
+- 📊 **Revenue Analytics** — Dynamic dashboards with data filtering
+- 🔄 **Global State Management** — Redux Toolkit for complex application state
+- 🎨 **Modern UI** — Responsive Tailwind CSS with Framer Motion animations
 
-Experience working with:
+**Tech Stack:**
 
-- WebSockets
-- Socket.IO
-- Real-time notifications
-- Live data updates
-- Event-driven communication
-- Redis-based systems
-- Background jobs with BullMQ
-
-### 🔹 Business Management Systems
-
-Experience building interconnected systems such as:
-
-- 👨‍💼 Admin Dashboards
-- 📊 Business Analytics Platforms
-- 👥 CRM Systems
-- 🔬 Research Management Platforms
-- 📱 Progressive Web Apps
-- 🔐 Authentication & Role-Based Access
-- 📈 Real-Time Business Data
-- ⚙️ Backend APIs & Services
+`Next.js 16` `TypeScript` `Node.js` `MongoDB`  
+`Socket.IO` `Leaflet.js` `Stripe` `Nodemailer`  
+`Redux Toolkit` `Tailwind CSS` `Framer Motion`
 
 ---
 
-# 🌟 Featured Project Experience
+## 🕸️ ShopGraph — Relationship Intelligence Platform
+
+🔗 **Live Demo:** https://shopgraph.vercel.app/
+
+A full-stack, graph-native marketplace platform designed around **relationship intelligence**, where application screens are powered by graph traversal rather than traditional relational lookups.
+
+### ✨ Key Features
+
+- 🧠 **Graph-First Commerce Architecture** — Built a graph-native marketplace architecture
+- 🔗 **Multi-Hop Relationship Exploration** — Search and visually explore relationships between customers, products, sellers, and brands
+- 👤 **Customer Intelligence** — Dedicated views for relationship-driven customer insights
+- 📦 **Product Intelligence** — Explore product relationships and marketplace connections
+- 🏪 **Seller Network** — Analyze seller relationships and marketplace networks
+- 📊 **Analytics Dashboard** — Business analytics and relationship-driven insights
+- 🤖 **Recommendations Engine** — Implemented recommendation capabilities based on marketplace relationships
+- ❤️ **Database Health Monitor** — Live database health/status monitoring
+- 🗂️ **Category & Brand Pages** — Structured marketplace catalog exploration
+
+**Tech Stack:**
+
+`Next.js` `TypeScript` `Graph Database` `Tailwind CSS`
+
+---
+
+## Experience:
 
 ## 📱 End-User PWA
 
 Built a production-ready Progressive Web App focused on providing a fast, responsive and mobile-first experience for end users.
 
-**Tech:**  
+**Tech Stack:**
+
 `Next.js` `React.js` `Node.js` `REST APIs` `Redis` `AWS`
 
 ---
@@ -161,8 +181,13 @@ Built a production-ready Progressive Web App focused on providing a fast, respon
 
 Developed a centralized administration platform for monitoring business statistics, user activity, operational data and overall business performance.
 
-**Tech:**  
-`Next.js` `React.js` `Node.js` `MongoDB` `AWS`
+**Key Areas:**
+
+- Business Analytics
+- User Management
+- Operational Statistics
+- Activity Monitoring
+- Role-Based Access
 
 ---
 
@@ -170,8 +195,13 @@ Developed a centralized administration platform for monitoring business statisti
 
 Built a platform for Research Analysts to create, manage and publish research-based trade signals that are delivered to end users through the PWA.
 
-**Tech:**  
-`Next.js` `React.js` `Node.js` `REST APIs` `Redis`
+**Key Areas:**
+
+- Research Signal Management
+- Signal Publishing
+- Analyst Workflow
+- End-User Signal Delivery
+- Role-Based Access
 
 ---
 
@@ -179,8 +209,32 @@ Built a platform for Research Analysts to create, manage and publish research-ba
 
 Developed a CRM platform for managing users, leads, customer interactions and sales activities, helping the business manage customer relationships more efficiently.
 
-**Tech:**  
-`Next.js` `React.js` `Node.js` `MongoDB` `REST APIs`
+**Key Areas:**
+
+- Lead Management
+- Customer Management
+- Sales Tracking
+- User Interactions
+- Follow-Up Management
+
+---
+
+## 👨‍💼 Employee Management System
+
+A responsive employee management dashboard with separate interfaces for Admin and Employee users.
+
+### ✨ Features
+
+- Role-Based Authentication
+- Admin Dashboard
+- Employee Dashboard
+- Task Management
+- Context API State Management
+- Responsive UI
+
+**Tech Stack:**
+
+`React.js` `Vite` `Tailwind CSS` `Context API`
 
 ---
 
@@ -210,6 +264,10 @@ Developed a CRM platform for managing users, leads, customer interactions and sa
 
 <a href="mailto:YOUR_EMAIL@gmail.com">
 <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://github.com/YOUR_GITHUB_USERNAME">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 </p>
